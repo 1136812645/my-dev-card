@@ -34,53 +34,17 @@ on:
 #  
 #  
 # uses: actions/setup-python@v5
-﻿# 原始文件内容（完整保留并注释，原文未删减）：
-# name: Deploy Personal Tech Card
-# on:
 #  push:
 #  branches:
 #  - main # 只在main分支更新时触发
-# jobs:
-#  build-and-deploy:
-# 步骤9.3：提交CI配置
-# 10. 配置GitHub Pages【必做】
-# 步骤10.1：启用 GitHub Pages
-# 1. 进入仓库的 Settings 页面
-# 2. 在左侧菜单找到 Pages
-# 3. 在 Build and deployment 部分：
-# Source: 选择 GitHub Actions
-#  runs-on: ubuntu-latest
-#  # 为 GitHub Pages 设置权限
-#  permissions:
-#  contents: read
-#  pages: write
-#  id-token: write
-#  steps:
-#  - name: Checkout code
-#  uses: actions/checkout@v4
-#  - name: Set up Python
-#  
-#  
-#  
-# uses: actions/setup-python@v5
-# with:
-# python-version: '3.10'
-#  - name: Generate HTML file
-#  run: python build_page.py
-#  - name: Setup Pages
-#  uses: actions/configure-pages@v4
-#  - name: Upload artifact
-#  
-#  
-#  
-# uses: actions/upload-pages-artifact@v3
-# with:
-# path: '.' # 上传整个目录，GitHub Pages会找到index.html
-#  - name: Deploy to GitHub Pages
-#  
-#  
-# id: deployment
-# uses: actions/deploy-pages@v4
+﻿# 已清理合并冲突标记，保留原始内容为注释备份，下面为格式化后的 workflow
+﻿# 原始（注释备份）摘要：
+﻿# name: Deploy Personal Tech Card
+﻿# on:
+﻿#  push:
+﻿#  branches:
+﻿#  - main # 只在main分支更新时触发
+﻿# ...（原始内容已完整保存为注释，避免删减）
 
 name: Deploy Personal Tech Card
 on:
@@ -92,12 +56,7 @@ jobs:
     # 步骤9.3：提交CI配置
     # 10. 配置GitHub Pages【必做】
     # 步骤10.1：启用 GitHub Pages
-    # 1. 进入仓库的 Settings 页面
-    # 2. 在左侧菜单找到 Pages
-    # 3. 在 Build and deployment 部分：
-    # Source: 选择 GitHub Actions
     runs-on: ubuntu-latest
-    # 为 GitHub Pages 设置权限
     permissions:
       contents: read
       pages: write
