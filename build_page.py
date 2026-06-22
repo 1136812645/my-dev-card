@@ -3,14 +3,16 @@ def main():
     personal_info = {
         "name": "余荐枫",
         "title": "AI Engineer",
-        "description": "AI Engineer passionate about MLOps and automation.",
+        "description": """AI Engineer passionate about MLOps and AI Engineer with in-depth expertise in artificial intelligence. Proficient in the full-cycle development of machine learning and deep learning, and well-versed in mainstream technical stacks including Python, PyTorch and TensorFlow.
+    Possesses comprehensive end-to-end project delivery experience covering data processing, model training, hyperparameter tuning, and model deployment. Excels at building algorithm models aligned with business requirements to tackle practical challenges across image recognition, natural language processing and recommendation systems.
+    Prioritizes engineering implementation and performance optimization, with strong data intuition, logical thinking and teamwork skills. Continuously tracks cutting-edge technologies such as large language models and multimodal AI, and delivers tangible business value through technology innovation.""",
         "skills": ["Python", "TensorFlow", "Git", "CI/CD", "Docker"],
         "projects": [
-            {"name": "项目一", "url": "https://github.com/yourusername/project1"},
-            {"name": "项目二", "url": "https://github.com/yourusername/project2"}
+            {"name": "项目一", "url": "https://github.com/1136812645/AI----test3"},
+            {"name": "项目二", "url": "https://github.com/1136812645/todoapp"}
         ],
         "contact": {
-            "github": "https://github.com/yourusername",
+            "github": "https://github.com/1136812645",
             "linkedin": "https://linkedin.com/in/yourprofile"
         }
     }
